@@ -1,6 +1,5 @@
 # model/soma.py
-# Author: Your Name
-# License: MIT
+# Author: jinkz
 
 from __future__ import annotations
 from pathlib import Path
@@ -17,7 +16,6 @@ from layers.encoder import Encoder                   # Mamba-based encoder stack
 from modules.alignment import (
     LearnableCost,
     sinkhorn_ot_alignment,
-    mmd_loss,
 )
 from modules.order_utils import (
     variable_wise_order,

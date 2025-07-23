@@ -1,6 +1,5 @@
 # modules/alignment.py
-# Author: Your Name
-# License: MIT
+# Author: jinkz
 
 from __future__ import annotations
 import torch
